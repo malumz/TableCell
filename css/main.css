@@ -14,28 +14,30 @@ fieldset, input, textarea, blockquote {
 body {
     background: #ffffff;
 }
-
+li {
+display: block;
+}
 .a {
 	display: table-cell;
 	height: 80px;
 	width: 100px;
-	background-color: 
+	background-color:#58ACFA;
 }
 .b {
 	display: table-cell;
 	height: 80px;
 	width: 100px;
-	background-color: 
+	background-color:#58FAAC;
 }
 .c {
 	display: table-cell;
 	height: 80px;
 	width: 100px;
-	background-color: 
+	background-color:#F7D358; 
 }
 .d {
 	display: table-cell;
 	height: 80px;
 	width: 100px;
-	background-color:;
+	background-color:#FA5858;
 }
