@@ -1,0 +1,44 @@
+@font-face {
+    font-family:'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dosis Regular'), local('Dosis-Regular'), url(http://themes.googleusercontent.com/static/fonts/dosis/v1/xIAtSaglM8LZOYdGmG1JqQ.woff) format('woff');
+}
+body, div, h1, h2, h3, h4, h5, h6, 
+p, ul, ol, li, dl, dt, dd, img, form, 
+fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body {
+    background: #ffffff;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	 transition: all 0.5s ;
+	
+}
+div:hover { line-height:200px;
+    color:#000000; }
+
+}
+.home {
+	background: #2ECCFA;
+	text-decoration: none;
+}
+
+.About {
+	background: #81F7D8;
+	text-decoration: none;
+}
+.Portfolio {
+	background: #FEC05C;
+	text-decoration: none;
+}
+.Contact {
+	background: #F5A9BC;
+	text-decoration: none;
+}
