@@ -14,30 +14,33 @@ fieldset, input, textarea, blockquote {
 body {
     background: #ffffff;
 }
-li {
-display: block;
+nav li {
+	display: block;
 }
-.a {
+
+nav li a {
+	width: 60px;
+	height: 60px;
+	background: #CCC;
+	display: table;
+	transition: all 0.3s;
+}
+
+nav li a span {
 	display: table-cell;
-	height: 80px;
-	width: 100px;
-	background-color:#58ACFA;
+	vertical-align: middle;
+	background: black;
+	opacity: 0;
 }
-.b {
-	display: table-cell;
-	height: 80px;
-	width: 100px;
-	background-color:#58FAAC;
+nav li a:hover {
+	padding-left: 60px;
 }
-.c {
-	display: table-cell;
-	height: 80px;
-	width: 100px;
-	background-color:#F7D358; 
+
+nav li a:hover span {
+	opacity: 1;
 }
-.d {
-	display: table-cell;
-	height: 80px;
-	width: 100px;
-	background-color:#FA5858;
-}
+
+nav li:nth-child(1) a{background: #58ACFA; color: #58ACFA; }
+nav li:nth-child(2) a{background: #58FAAC; color: #58FAAC; }
+nav li:nth-child(3) a{background: #F7D358; color: #F7D358; }
+nav li:nth-child(4) a{background: #FA5858; color: #FA5858; }
